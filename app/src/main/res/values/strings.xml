@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">KMSKedelaiApp</string>
+    <string name="action_settings">Pilihan</string>
+    <string name="action_profile">Profile</string>
+    <string name="title_activity_kedelai">Kedelai</string>
+    <string name="title_activity_kedelai_detail">KedelaiDetailActivity</string>
+    <string name="title_activity_teknologi">Teknologi Produksi</string>
+    <string name="title_activity_pengolahan">Pengolahan Hasil</string>
+    <string name="facebook_app_id">1720972438190815</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_pengolahan_detail">Pengolahan Detail</string>
+    <string name="title_activity_penyuluh">Data Penyuluh</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_artikel">Artikel Populer</string>
+    <string name="title_activity_tentang">Tentang Kami</string>
+
+    <string name="title_activity_bukutamu">Isi Buku Tamu</string>
+    <string name="title_activity_konsultasi">Konsultasi</string>
+    <string name="cth_berita">Icon generators allow you to quickly and easily generate icons from existing source images, clipart, or text.</string>
+    <string name="judul_berita">COMMUNITY TOOLS — SIMILAR TOOLS FROM THE OPEN SOURCE COMMUNITY</string>
+    <string name="title_activity_detail_konsultasi">Post</string>
+    <string name="title_activity_detail_artikel">Artikel</string>
+    <string name="title_activity_user_management">User Management</string>
+    <string name="title_activity_settings">Pilihan</string>
+    <string name="title_activity_extras">ExtrasActivity</string>
+    <string name="title_activity_komen_teknologi">Komentar</string>
+    <string name="title_activity_topik">Topik</string>
+    <string name="title_activity_komen_konsultasi">Komentar</string>
+    <string name="title_activity_edit_profile">Ubah Profile</string>
+    <string name="title_activity_reset_password">Reset Password</string>
+    <string name="title_activity_download">Unduh File</string>
+    <string name="title_activity_replace_picture">Ubah Foto</string>
+
+    <!-- RTC -->
+    <string name="title_activity_video_chat">Video Call</string>
+    <string name="title_activity_incoming_call">Incoming Call</string>
+    <string name="no_call_history">No call history</string>
+    <string name="title_activity_login">Login</string>
+    <string name="login">Choose a username</string>
+    <string name="login_submit">Sign in!</string>
+    <!-- Strings related to login -->
+    <string name="enter_new_channel">Enter a new channel</string>
+    <string name="here_now">Here Now</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_register">Register</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_phone">Phone</string>
+    <string name="action_back_login">Back to login</string>
+    <string name="incoming_call">Incoming Call&#8230;</string>
+    <string name="incoming_call_from">Kamal</string>
+    <string name="action_sign_in_short">Chat Video</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="rtcActivity">rtcActivity</string>
+</resources>

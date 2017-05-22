@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginBottom="5dp"
+        android:foreground="?android:attr/selectableItemBackground">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1"
+            android:id="@+id/linearPenyuluh"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <com.pkmmte.view.CircularImageView
+                android:id="@+id/avatarPenyuluh"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/usergroup"
+                app:border="true"
+                app:border_color="@android:color/white"
+                app:border_width="1dp"
+                app:shadow="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Jemsnaban"
+                    android:id="@+id/namaPenyuluh"
+                    android:textColor="@color/colorSecondaryText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Jalan Sagan Timur CT V no bla bla bla bla bla bla bla bla"
+                    android:id="@+id/profesiPenyuluh"
+                    android:layout_marginTop="10dp"
+                    android:maxLines="2"
+                    android:textColor="@color/colorSecondaryText" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

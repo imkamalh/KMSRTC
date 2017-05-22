@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginBottom="10dp"
+        android:foreground="?android:attr/selectableItemBackground">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearArtikel"
+            android:weightSum="1"
+            android:padding="5dp">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imageArtikel"
+                android:layout_weight="0.7"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_grey"
+                android:layout_gravity="top" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="5 Gadis Cantik Penjual yang Buat Heboh Indonesia"
+                    android:id="@+id/textJudulArtikel"
+                    android:maxLines="2"
+                    android:textColor="@color/colorSecondaryText" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="22 April 2016 23:00 PM"
+                        android:id="@+id/textTglArtikel"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:textColor="@color/colorSecondaryText" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
